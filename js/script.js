@@ -1,5 +1,5 @@
-var sayMyName = function(name){
-  alert('My name is: '+ name);
+var sayMyName = function (name){
+  alert("My name is: "+name);
 }
 
 var car = {
@@ -14,17 +14,17 @@ var car = {
     'seat3',
     'seat4'
   ],
-  turnOn:function(){
+  turnOn: function(){
     this.isTurnedOn = true;
   },
   fly: function(){
-        alert('fly');
+    alert('fly');
   },
   switchCar: function(isOn){
-    console.log('Turn car ' + isOn);
-    if(isOn == true){
+    console.log("turn car " + isOn);
+    if(isOn === true){
       this.isTurnedOn = true;
-    }else {
+    }else{
       this.isTurnedOn = false;
     }
   }
