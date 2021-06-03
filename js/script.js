@@ -1,3 +1,18 @@
+// this is invisible comment
+
+/*
+
+*/
+
+var doCoolStuff = function(){
+  var currenClassName = document.getElementById('cool').className;
+  if(currenClassName ==="cool"){
+    currenClassName = document.getElementById('cool').className='cool red';
+  }else{
+    currenClassName = document.getElementById("cool").className='cool';
+  }
+
+}
 var sayMyName = function (name){
   alert("My name is: "+name);
 }
